@@ -13,11 +13,17 @@ For more info about OHMS see [their website](http://libraries.uky.edu/libpage.ph
 ## install
 
 clone or download zip from this repo
+
 tested on python 3.6.x only
+
 external packages can be installed with pip/ pip3:
+
 `pip install SpeechRecognition`
+
 `pip install python-docx`
+
 `pip install wave`
+
 `pip install fuzzywuzzy`
 
 
