@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 class dotdict(dict):
     '''
     dot.notation access to dictionary attributes

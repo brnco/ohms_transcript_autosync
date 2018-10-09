@@ -1,6 +1,9 @@
+#!/usr/bin/env python
+
 '''
 handler for microsoft office documents
 '''
+
 import docx
 from openpyxl import load_workbook
 import datetime
@@ -73,7 +76,7 @@ def make_lines(paragraph, kwargs):
     takes a word paragraph object and returns an array of lines
     '''
     charsInLine = kwargs.charsInLine
-    paragraphLines = []
+    paragraphLines = ['']
     oneLine = ''
     lines = paragraph.split('\n')
     for ln in lines: #need this to deal with <w:br/> line break tags, which aren't always mapped by openpyxl

@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 '''
 SpeechRecognition Utilities
 handles all SR requests for OHP Microservices
